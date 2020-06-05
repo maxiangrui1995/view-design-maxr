@@ -1,9 +1,13 @@
 .DS_Store
 node_modules
 /dist
-
 /tests
 /public
+.gitignore
+babel.config.js
+cypress.json
+package-lock.json
+.vue.config.js
 
 # local env files
 .env.local
