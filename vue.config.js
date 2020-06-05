@@ -1,11 +1,13 @@
 module.exports = {
-    index: {
-        // page 的入口
-        entry: process.env.NODE_ENV === 'production' ? 'src/index.js' : 'dev/main.js',
-        // 模板来源
-        template: 'public/index.html',
-        // 输出文件名
-        filename: 'index.html'
+    pages: {
+        index: {
+            // page 的入口
+            entry: process.env.NODE_ENV === 'production' ? 'src/index.js' : 'dev/main.js',
+            // 模板来源
+            template: 'public/index.html',
+            // 输出文件名
+            filename: 'index.html'
+        }
     },
     devServer: {
         // 设置端口
